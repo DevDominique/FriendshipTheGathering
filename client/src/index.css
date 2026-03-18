@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800;900&display=swap');
 
 #root {
-    background: url('./assets/unitygrid.jpg');
+    background: url('./assets/ftg-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -10,11 +10,11 @@
     background-color: var(--secondary-color);
     font-family: Nunito Sans, Verdana, sans-serif;
     height: 100vh;
-    --main-color: rgb(217, 29, 242);
+    --main-color: rgb(2, 123, 145);
     --secondary-color: rgb(3, 1, 64);
     --primary: var(--main-color);
-    --primary-hover: rgb(111, 28, 166);
-    --primary-focus: rgb(217, 29, 242);
+    --primary-hover: rgb(255, 158, 32);
+    --primary-focus: rgb(2, 123, 145);
     --secondary: var(--secondary-color);
     --secondary-hover: rgb(4, 66, 191);
     --secondary-focus: rgb(111, 28, 166);
@@ -36,8 +36,8 @@
 }
 
 #root h1 {
-    font-family: Rock Salt, cursive;
-    font-size: 3em;
+    font-family: Poppins, cursive;
+    font-size: 2.25em;
     font-weight: bold;
     text-shadow: 3px 3px 4px black;
 }
